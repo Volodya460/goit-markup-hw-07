@@ -1,0 +1,43 @@
+.services{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    max-width:1600px ;
+    background-image:  linear-gradient(
+    rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/services.jpg);
+    background-position: center;
+    text-align: center;
+    padding:200px 452px ;
+  }
+  .services__title{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+
+
+  }
+  .services__button{
+    background-color:#2196F3 ;
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 2;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   min-width: 216px;
+   border-radius: 4px;
+   padding: 10px 32px;
+   border:none;
+   &:hover,&:focus{
+    background-color:#188CE8;
+   }
+    }

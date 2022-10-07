@@ -1,0 +1,78 @@
+.section--bk{
+    background-color: #F5F4FA;
+}
+
+
+
+.team{
+    display: flex;
+   &__item{
+        padding-bottom: 30px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        width: 270px;
+        height: 428px;
+
+
+}
+ &__title {
+ color: var(--title-text-color);
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.2;
+ margin-top:30px ;
+ margin-bottom: 10px;
+ text-align: center;
+ }
+ &__position{
+
+font-size: 16px;
+line-height: 1.2;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+}
+    
+}
+
+.team__item + .team__item{
+    margin-left: 30px;
+}
+
+.social{
+display: flex;
+justify-content: space-around;
+margin: 16px 32px 0px 32px;
+padding: 0;
+&__icon{
+  
+    fill:#afb1b8 ;
+    transition: fill 250ms var(--timing-fuction);}
+&__item{
+    
+   width:44px;
+    height:44px; 
+    
+}
+    }
+
+.social__link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   width:44px;
+   height:44px;
+   transition: 
+   background 250ms var(--timing-fuction),
+   border-radius 250ms var(--timing-fuction)
+   ;
+  &:hover,&:focus{
+    background:var(--accent-text-color);
+    border-radius: 50%;
+  }
+  &:hover svg{fill: #FFFFFF;}
+  &:focus svg{ fill: #FFFFFF;}
+
+}

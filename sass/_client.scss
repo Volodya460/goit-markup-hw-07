@@ -1,0 +1,31 @@
+.client
+{padding: 0;
+    display:flex;
+    margin: 0;
+    gap: 30px;
+
+ }
+ .client__icon{
+   fill:#afb1b8;
+   transition: fill 250ms var(--timing-fuction);
+ }
+ .client__link{
+    display: flex;
+    max-width: 170px;
+    max-height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding:16px 32px ;
+    align-items: center;
+    
+    transition: 
+    border-color 250ms var(--timing-fuction);
+    
+    &:hover,&:focus{
+    border-color: var(--accent-text-color);
+    }
+    &:hover svg {fill:var(--accent-text-color);}
+    &:focus svg {fill:var(--accent-text-color);}
+ }
+    
+    
